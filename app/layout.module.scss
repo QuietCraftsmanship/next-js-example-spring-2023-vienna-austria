@@ -1,0 +1,29 @@
+.navigator {
+  background-color: rgb(248, 54, 112);
+  padding: 5px;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  a {
+    background-color: transparent;
+  }
+}
+
+.logoutButton {
+  border: 1px solid;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(0, 31, 57);
+  border-radius: 5px;
+
+  &:hover {
+    background-color: rgb(0, 31, 57);
+    color: white;
+  }
+}
